@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B33DC9216CCBBA00BC6A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B33DC8216CCBBA00BC6A63 /* AppDelegate.swift */; };
+		52B33DCB216CCBBA00BC6A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B33DCA216CCBBA00BC6A63 /* ViewController.swift */; };
+		52B33DCE216CCBBA00BC6A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B33DCC216CCBBA00BC6A63 /* Main.storyboard */; };
+		52B33DD0216CCBC200BC6A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B33DCF216CCBC200BC6A63 /* Assets.xcassets */; };
+		52B33DD3216CCBC200BC6A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B33DD1216CCBC200BC6A63 /* LaunchScreen.storyboard */; };
+		A087CF46193E85029EA6290E /* Pods_iOS_LocationNotificationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742ECAE8CD261B968B99B05A /* Pods_iOS_LocationNotificationApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37D384602BB3E931F08C3A96 /* Pods-iOS_LocationNotificationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LocationNotificationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LocationNotificationApp/Pods-iOS_LocationNotificationApp.release.xcconfig"; sourceTree = "<group>"; };
+		52B33DC5216CCBBA00BC6A63 /* iOS_LocationNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_LocationNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B33DC8216CCBBA00BC6A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B33DCA216CCBBA00BC6A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B33DCD216CCBBA00BC6A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B33DCF216CCBC200BC6A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B33DD2216CCBC200BC6A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B33DD4216CCBC200BC6A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B33DDA216CCDC200BC6A63 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742ECAE8CD261B968B99B05A /* Pods_iOS_LocationNotificationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_LocationNotificationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823630CF3DDE172D718CDF34 /* Pods-iOS_LocationNotificationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LocationNotificationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LocationNotificationApp/Pods-iOS_LocationNotificationApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B33DC2216CCBBA00BC6A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A087CF46193E85029EA6290E /* Pods_iOS_LocationNotificationApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C0B8372E97D6D1BAC67094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823630CF3DDE172D718CDF34 /* Pods-iOS_LocationNotificationApp.debug.xcconfig */,
+				37D384602BB3E931F08C3A96 /* Pods-iOS_LocationNotificationApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52B33DBC216CCBBA00BC6A63 = {
+			isa = PBXGroup;
+			children = (
+				52B33DC7216CCBBA00BC6A63 /* iOS_LocationNotificationApp */,
+				52B33DC6216CCBBA00BC6A63 /* Products */,
+				51C0B8372E97D6D1BAC67094 /* Pods */,
+				B61F25803C471474671086BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B33DC6216CCBBA00BC6A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B33DC5216CCBBA00BC6A63 /* iOS_LocationNotificationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B33DC7216CCBBA00BC6A63 /* iOS_LocationNotificationApp */ = {
+			isa = PBXGroup;
+			children = (
+				52B33DC8216CCBBA00BC6A63 /* AppDelegate.swift */,
+				52B33DCA216CCBBA00BC6A63 /* ViewController.swift */,
+				52B33DCC216CCBBA00BC6A63 /* Main.storyboard */,
+				52B33DCF216CCBC200BC6A63 /* Assets.xcassets */,
+				52B33DD1216CCBC200BC6A63 /* LaunchScreen.storyboard */,
+				52B33DD4216CCBC200BC6A63 /* Info.plist */,
+			);
+			path = iOS_LocationNotificationApp;
+			sourceTree = "<group>";
+		};
+		B61F25803C471474671086BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B33DDA216CCDC200BC6A63 /* DropDown.framework */,
+				742ECAE8CD261B968B99B05A /* Pods_iOS_LocationNotificationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B33DC4216CCBBA00BC6A63 /* iOS_LocationNotificationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B33DD7216CCBC200BC6A63 /* Build configuration list for PBXNativeTarget "iOS_LocationNotificationApp" */;
+			buildPhases = (
+				BA54B3E9CE75D7E5439D6E42 /* [CP] Check Pods Manifest.lock */,
+				52B33DC1216CCBBA00BC6A63 /* Sources */,
+				52B33DC2216CCBBA00BC6A63 /* Frameworks */,
+				52B33DC3216CCBBA00BC6A63 /* Resources */,
+				B1225628634E89399E7D7B43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_LocationNotificationApp;
+			productName = iOS_LocationNotificationApp;
+			productReference = 52B33DC5216CCBBA00BC6A63 /* iOS_LocationNotificationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B33DBD216CCBBA00BC6A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Omni-Bridge";
+				TargetAttributes = {
+					52B33DC4216CCBBA00BC6A63 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 52B33DC0216CCBBA00BC6A63 /* Build configuration list for PBXProject "iOS_LocationNotificationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B33DBC216CCBBA00BC6A63;
+			productRefGroup = 52B33DC6216CCBBA00BC6A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B33DC4216CCBBA00BC6A63 /* iOS_LocationNotificationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B33DC3216CCBBA00BC6A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B33DD3216CCBC200BC6A63 /* LaunchScreen.storyboard in Resources */,
+				52B33DD0216CCBC200BC6A63 /* Assets.xcassets in Resources */,
+				52B33DCE216CCBBA00BC6A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1225628634E89399E7D7B43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_LocationNotificationApp/Pods-iOS_LocationNotificationApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_LocationNotificationApp/Pods-iOS_LocationNotificationApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA54B3E9CE75D7E5439D6E42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_LocationNotificationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B33DC1216CCBBA00BC6A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B33DCB216CCBBA00BC6A63 /* ViewController.swift in Sources */,
+				52B33DC9216CCBBA00BC6A63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52B33DCC216CCBBA00BC6A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B33DCD216CCBBA00BC6A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B33DD1216CCBC200BC6A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B33DD2216CCBC200BC6A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B33DD5216CCBC200BC6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B33DD6216CCBC200BC6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B33DD8216CCBC200BC6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823630CF3DDE172D718CDF34 /* Pods-iOS_LocationNotificationApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOS_LocationNotificationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpanzade.iOS-LocationNotificationApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B33DD9216CCBC200BC6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D384602BB3E931F08C3A96 /* Pods-iOS_LocationNotificationApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOS_LocationNotificationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpanzade.iOS-LocationNotificationApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B33DC0216CCBBA00BC6A63 /* Build configuration list for PBXProject "iOS_LocationNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B33DD5216CCBC200BC6A63 /* Debug */,
+				52B33DD6216CCBC200BC6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B33DD7216CCBC200BC6A63 /* Build configuration list for PBXNativeTarget "iOS_LocationNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B33DD8216CCBC200BC6A63 /* Debug */,
+				52B33DD9216CCBC200BC6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B33DBD216CCBBA00BC6A63 /* Project object */;
+}

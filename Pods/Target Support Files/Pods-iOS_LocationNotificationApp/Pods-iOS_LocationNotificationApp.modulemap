@@ -1,0 +1,6 @@
+framework module Pods_iOS_LocationNotificationApp {
+  umbrella header "Pods-iOS_LocationNotificationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
